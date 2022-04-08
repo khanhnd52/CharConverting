@@ -10,7 +10,9 @@ int main(int argc, char *argv[]) {
 	
 	printf("Your have just input the character: %c \n", fL);
 	
+	//Đổi hoa sang thường
 	fL += 32;
 	printf("And it is converted to lowercase as: %c \n", fL);
+	printf("And it is converted to lowercase as\t\t\t: %c \n", fL);
 	return 0;
 }
